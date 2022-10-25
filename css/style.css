@@ -156,12 +156,15 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 200px;
+  height: 100vh;
   position: relative;
   background-image: url(../images/hero-bg.png);
   background-size: cover;
   background-position: bottom right;
   background-repeat: no-repeat;
+}
+#ab1{
+  height: 200px!important;
 }
 
 .sub_page .hero_area {
