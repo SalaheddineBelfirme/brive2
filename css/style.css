@@ -8,16 +8,11 @@ body {
   margin: 0 auto;
   display: flex;
   height: 400px;
-
 }
 .sochil{
-  
   background-color: rgb(212, 91, 15);
   margin-left: 21%;
   width: 15%;
-
-
-
 
 }
 .sochil img{
@@ -37,23 +32,32 @@ body {
   grid-gap: 50px;
   margin-left: 30%;
 }
+
+
 .info textarea{
   height: 114px;
     width: 191%;
     margin-left: 18%;
 }
 
+
 /* css galry */
 .filtr{
   display: flex;
-    margin-left: 41%;
+    margin-left: 35%;
     margin-top: 17%;
+    text-align: center;
+    
 }
 
 .best_seling{
   display: grid ;
   grid-template-columns: 2fr 2fr;
   flex-wrap: wrap;
+}
+
+@media(max-width: 767px){
+  
 }
 
 
@@ -152,7 +156,7 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 100vh;
+  height: 200px;
   position: relative;
   background-image: url(../images/hero-bg.png);
   background-size: cover;
@@ -1028,4 +1032,135 @@ a:focus {
 .footer_section a {
   color: #9c9b9b;
 }
+
+/* contact page */
+@media  (max-width:700px){
+  .input_1{
+   
+   
+ flex-direction:column;
+
+ margin-right: auto;
+ 
+  } 
+  .input_1 input{
+
+ margin-top: 40px;
+ 
+  }
+  .details{
+
+    right:  10px;
+    font-size: 10px;
+    width: 20%;
+
+
+  }
+  .send{
+    margin-bottom: 10px;
+  }
+
+  .area{
+    height: 20px;
+  
+  }
+  .titre_contact{
+    margin-top: 50%;
+    margin-right: 72px;
+  }
+
+
+}
+
+.containerr {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titre_contact{
+  text-align: center;
+  font-weight: bold;
+  margin-block: 15px;
+}
+.form_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#area{
+  border-color: black;
+  border-width: 6px;
+  width: 250px;
+    height: 200px;
+    border: solid;
+  
+
+}
+.form_contact input{
+  border-color: black;
+  border-radius: 6px;
+}
+
+.social_1{
+  padding-left: 10px;
+  display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.social_2{
+  padding-left: 10px;
+  display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.social_3{
+  padding-left: 10px;
+  display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.input_1 {
+ 
+  justify-content: space-around;
+  /* align-items: center;
+  gap: 2%; */
+}
+.input_1  input {width: 40%;}
+.input_2 {
+  width: 60%;
+  margin-right: auto;
+}
+.input_3{
+  margin-right: auto;
+}
+.details {
+ 
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  background-color: #F3C56C;
+}
+.details map {
+height: auto;
+background-color: red;
+}
+.details div{
+  padding-top: 20px;
+} 
+
+
+
+/* contact page */
+
 /*# sourceMappingURL=style.css.map */
